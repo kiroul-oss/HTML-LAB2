@@ -1,0 +1,69 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #333;
+  height: 40px;
+}
+
+.nav_links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav_links li {
+  float: left;
+}
+
+.nav_links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav_links li a:hover {
+  background-color: rgb(156, 52, 52);
+}
+/* end of nav style */
+
+/* div {
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 30%;
+}
+.one {
+  background-color: limegreen;
+  float: left;
+}
+.two {
+  background-color: orange;
+  float: left;
+}
+.three {
+  background-color: hotpink;
+  float: left;
+} */
+.container {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 500px;
+}
+
+/* start of registraion form style */
+.container2 {
+  display: grid;
+  grid-template-columns: 450px 650px;
+}
+.two {
+  border: solid rgb(70, 107, 70);
+  padding: 5px;
+}
