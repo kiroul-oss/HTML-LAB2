@@ -41,12 +41,24 @@
   width: 30%;
 }
 
+ .one {
+  background-color: limegreen;
+  float: left;
+}
+.two {
+  background-color: orange;
+  float: left;
+}
+.three {
+  background-color: hotpink;
+  float: left;
+}  */
+
 .container {
   display: grid;
   grid-template-columns: 300px 300px;
   grid-gap: 500px;
 }
-
 /* start of registraion form style */
 .container2 {
   display: grid;
